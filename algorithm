@@ -1,0 +1,15 @@
+package main
+
+import "fmt"
+
+//fibonacci
+func main() {
+	x, y, n, z := 0, 1, 10, 0
+	for i := 0; i < n; i++ {
+		fmt.Println(x)
+		z = x + y
+		x ,y  = y , z
+	}
+}
+
+//newton method
